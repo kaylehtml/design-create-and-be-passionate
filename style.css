@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+  height: 30px;
+  border: 1px solid red;
+}
+.design {
+  width: 50%;
+  height: 75%;
+  border: 1px solid blue;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.image-container {
+  width: 100%;
+  height: 30%;
+  border: 1px solid green;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.design-2 {
+  width: 50%;
+  height: 600px;
+  border: 1px solid black;
+}
+.design-wrapper {
+  display: flex;
+}
