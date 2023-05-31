@@ -20,8 +20,7 @@
   width: 100%;
   height: 30%;
   border: 1px solid green;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
 }
 .design-2 {
   width: 50%;
@@ -30,4 +29,19 @@
 }
 .design-wrapper {
   display: flex;
+}
+img > .design {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+img > .image-container {
+  object-fit: cover;
+  width: 50%;
+}
+img > .design-2 {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
