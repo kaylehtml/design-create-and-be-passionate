@@ -34,14 +34,24 @@ img > .design {
   object-fit: cover;
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 img > .image-container {
   object-fit: cover;
-  width: 50%;
+  min-width: 50%;
 }
-img > .design-2 {
-  object-fit: contain;
+.img {
+  object-fit: cover;
   width: 100%;
   height: 100%;
+}
+.image1 {
+  min-width: 50%;
+}
+.image2 {
+  min-width: 50%;
+}
+.large-image {
+  min-width: 100%;
 }
