@@ -5,12 +5,11 @@
 .navbar {
   width: 100%;
   height: 30px;
-  border: 1px solid red;
 }
 .design {
   width: 50%;
   height: 75%;
-  border: 1px solid blue;
+
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -19,13 +18,11 @@
 .image-container {
   width: 100%;
   height: 30%;
-  border: 1px solid green;
   display: flex;
 }
 .design-2 {
   width: 50%;
   height: 600px;
-  border: 1px solid black;
 }
 .design-wrapper {
   display: flex;
@@ -34,24 +31,14 @@ img > .design {
   object-fit: cover;
   height: 100%;
   width: 100%;
-  position: relative;
 }
 
 img > .image-container {
   object-fit: cover;
-  min-width: 50%;
+  max-width: 50%;
 }
-.img {
+img {
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
-.image1 {
-  min-width: 50%;
-}
-.image2 {
-  min-width: 50%;
-}
-.large-image {
-  min-width: 100%;
 }

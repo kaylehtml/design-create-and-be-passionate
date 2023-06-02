@@ -1,3 +1,9 @@
 ## TO DO
 
-[ ] vedere se .image-container è veramente una grid
+paragrafi
+
+## PROBLEMS
+
+this website is not responsive
+
+the first image overflows when the browser is too big
